@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .input {
+        @apply py-1 px-2 indent-2 border  rounded-md w-11/12 mx-auto
+    }
+    .form-input {
+        @apply py-1.5 px-2 border rounded-md focus:outline-none indent-1 focus:border-neutral-500
+    }
+    .btn {
+        @apply bg-neutral-200 border rounded-md px-4 py-0.5
+    }
+    .card {
+        @apply py-4 px-4 w-11/12 mx-auto md:w-auto md:mx-0  text-center bg-neutral-200 rounded-md text-gray-800 text-lg my-2
+    }
+}
